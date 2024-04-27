@@ -39,7 +39,7 @@ class _SplashScreenState extends State<SplashScreen> {
                                 children: [
                                   Container(
                                     alignment: Alignment.topRight,
-                                    height: 400,
+                                    height: 300,
                                     width: 400,
                                     decoration: BoxDecoration(
                                       image: DecorationImage(
@@ -60,7 +60,7 @@ class _SplashScreenState extends State<SplashScreen> {
                                         )),
                                   ),
                                   Text(
-                                    products[index].title,
+                                    products[index].nombrePintura,
                                     style: TextStyle(
                                         fontSize: 35,
                                         fontWeight: FontWeight.bold,
@@ -68,9 +68,37 @@ class _SplashScreenState extends State<SplashScreen> {
                                   ),
                                   Text(
                                     textAlign: TextAlign.center,
-                                    products[index].description,
+                                    products[index].precioPintura,
                                     style: TextStyle(
-                                        fontSize: 25, color: Colors.white),
+                                        fontSize: 18, color: Colors.white),
+                                  ),
+                                  Text(
+                                    products[index].descuentoPintura,
+                                    style: TextStyle(
+                                        fontSize: 18, color: Colors.white),
+                                  ),
+                                  Text(
+                                    textAlign: TextAlign.center,
+                                    products[index].marcaPintura,
+                                    style: TextStyle(
+                                        fontSize: 18, color: Colors.white),
+                                  ),
+                                  Text(
+                                    products[index].litros,
+                                    style: TextStyle(
+                                        fontSize: 18, color: Colors.white),
+                                  ),
+                                  Text(
+                                    textAlign: TextAlign.center,
+                                    products[index].proveedorPintura,
+                                    style: TextStyle(
+                                        fontSize: 18, color: Colors.white),
+                                  ),
+                                  Text(
+                                    textAlign: TextAlign.center,
+                                    products[index].codigoPintura,
+                                    style: TextStyle(
+                                        fontSize: 18, color: Colors.white),
                                   )
                                 ],
                               );
