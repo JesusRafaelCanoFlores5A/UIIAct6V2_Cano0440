@@ -1,4 +1,4 @@
-![image](https://github.com/JesusRafaelCanoFlores5A/UIIAct6V2_Cano0440/assets/143547897/d896e45b-5689-4e95-879a-93e1c336e74a)# UIIAct6_Splash
+# UIIAct6_Splash
 
 A new Flutter project created with FlutLab - https://flutlab.io
 
